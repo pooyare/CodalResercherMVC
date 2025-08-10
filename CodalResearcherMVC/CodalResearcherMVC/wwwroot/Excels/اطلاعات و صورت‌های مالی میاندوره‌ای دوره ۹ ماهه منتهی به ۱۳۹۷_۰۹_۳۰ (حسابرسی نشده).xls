@@ -1,0 +1,2917 @@
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta name="Excel Workbook Frameset">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="File-List" href="filelist.xml">
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+  <x:ExcelWorksheet>
+  <x:WorksheetOptions>
+  <x:Selected/>
+  <x:DisplayRightToLeft/>
+  </x:WorksheetOptions>
+  </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link id="Main-File" rel="Main-File" href="../WorkBook.htm">
+  <link rel="File-List" href="filelist.xml">
+<style>
+table { font-family:Tahoma; font-size: 8pt; }
+table td { text-align: center; border: 1px solid #ddd;}
+table th { text-align: center; background-color: #0197c8; color: white; font-weight:bold mso-number-format:\@; border: 1px solid #ddd; }
+table tr.ComputationalRow { background-color: #fee2a0 }
+.description, .DescriptionColumn { text-align: right; }
+</style>
+</head>
+<body>
+<div>
+<div>
+<hr>
+<h3>
+ترازنامه
+</h3>
+<hr>
+</div>
+<br>
+<head id="ctl00_Head1"><title>
+	صورت‌های مالی میاندوره‌ای 9 ماهه منتهی به 1397/09/30
+</title>
+   
+    <!--[if lt IE 7]>
+	<link href="../css/IE6_new_style.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+
+    
+
+    
+
+    
+
+    
+
+    
+<meta http-equiv="Cache - Control" content="no - cache, no - store, must - revalidate">
+<meta http-equiv="Pragma" content="no - cache">
+<meta http-equiv="Expires" content="0"></head>
+<body>
+    <form name="aspnetForm" method="post" action="" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+
+	
+	
+	
+</div>
+    
+    
+    
+    <div class="clear" style="height: 15px;">
+    </div>
+    
+    
+<style type="text/css">
+    .label
+    {
+        font-size: 8pt;
+        font-family: tahoma;
+    }
+</style>
+<div id="ctl00_ucSignature1_pnlMain" class="main_note" style="background-color:#C1E2B4;">
+    <div class="verify">
+       
+    
+    </div>
+    <div class="noteholder">
+        
+        
+        <div class="clear"></div>
+    </div>
+    <div class="clear">
+    </div>
+</div>
+
+    <div class="clear" style="height: 5px;">
+    </div>
+   <div class="errorHolder">
+        <span id="ctl00_lblError" class="Error" style="color:DarkRed;font-weight:bold;"></span>
+    </div>
+   
+   <div id="ctl00_divPriceNote" class="note_price">
+        <p id="ctl00_pPriceNote">کلیه مبالغ درج شده به میلیون ریال می باشد</p>
+    </div>
+   <div class="note_price_Excel">
+    
+    <a target="_blank" href="http://excel.codal.ir//service/excel/?letterSerial=BrKCsNQQQaQQQTl1YZvRr0%2bgq8QA%3d%3d&amp;sheetId=0&amp;languageId=0">    </a></div>
+    <div class="clear">
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style type="text/css">
+        .noWrap
+        {
+            white-space: nowrap;
+        }
+        .colorWhite
+        {
+        	color: white;
+        }
+        .ui-tinytbl-th
+        {
+            background-color: #007ec8;
+        }
+        .GridHeader th
+        {
+        	padding: 0;
+        }
+        .table_wrapper td
+        {
+        	/* IE7 and below */
+        	*padding: 0;
+        }
+        .wrapper
+        {
+        	width: 90%;
+        	margin: 0 auto;
+        }
+        .ui-tinytbl-lastrow, .ui-tinytbl-lastrow th
+        {
+            border-bottom: none;
+        }
+        .ui-tinytbl-firstcol, .firstcol
+        {
+        	border-right: solid 1px #BCBCBC;
+        }
+        .printButton
+        {
+        	float: left;
+        	*margin-top: -15px;
+        }
+        .Hidden
+        {
+        	display: none;
+        }
+    </style>
+    
+    
+    
+    
+    
+
+<br>
+
+
+    <div style="clear: both;"></div>
+    <div id="ctl00_cphBody_UpdatePanel1">
+	
+            
+                    
+
+
+<!--[if lt IE 7]>
+<link href="../css/IE6_html_format_style.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+
+
+
+
+
+<div class="table_holder">
+	<div class="table_wrapper">
+	
+		<div>
+		
+	</div>
+		
+		<div includeinexcel="true">
+			<div>
+		<table tabindex="6" class="Grid table_wrapper" cellspacing="0" cellpadding="3" rules="all" border="1" id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition" style="width:100%;border-collapse:collapse;">
+			<tbody><tr class="GridHeader">
+				<th class="DescriptionColumn" scope="col">شرح</th><th class="YearColumn" scope="col">پایان عملکرد واقعی منتهی به<br>۱۳۹۷/۰۹/۳۰</th><th class="YearColumn" scope="col">پایان سال مالی قبل<br>۱۳۹۶/۱۲/۲۹</th><th class="PercentColumn" scope="col">درصد<br> تغییرات</th><th class="DescriptionColumn" scope="col">شرح</th><th class="YearColumn" scope="col">پایان عملکرد واقعی منتهی به<br>۱۳۹۷/۰۹/۳۰</th><th class="YearColumn" scope="col">پایان سال مالی قبل<br>۱۳۹۶/۱۲/۲۹</th><th class="PercentColumn" scope="col">درصد<br> تغییرات</th>
+			</tr><tr>
+				<td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl02_lblAssetDescription">دارایی‌‌ها</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl02_lblLiabilityDescription">بدهی‌ها و حقوق صاحبان سهام</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td>
+			</tr><tr>
+				<td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl03_lblAssetDescription">دارایی‌‌های جاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl03_lblLiabilityDescription">بدهی‌های جاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl04_lblAssetDescription">موجودی نقد</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۷۵۴,۵۵۲</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۴۲۵,۸۷۹</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۷۷</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl04_lblLiabilityDescription">پرداختنی‌های تجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۵,۲۷۵,۰۵۷</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۴,۵۳۸,۰۷۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۱۶</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl05_lblAssetDescription">سرمایه‌گذاری‌‌های کوتاه مدت</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۲۰۶,۵۲۵</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۲۰۶,۵۲۵</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl05_lblLiabilityDescription">پرداختنی‌های غیرتجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۹۷۳,۳۰۳</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۲۵۲,۵۵۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۲۸۵</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl06_lblAssetDescription">دریافتنی‌‌های تجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۸۲۲,۹۲۲</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۲۵۸,۵۵۹</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۲۱۸</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl06_lblLiabilityDescription">مالیات پرداختنی</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۳۷۷,۲۱۹</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۱۶۱,۲۰۵</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۱۳۴</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl07_lblAssetDescription">دریافتنی‌‌های غیرتجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۶۵۷,۹۱۰</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۶۹۰,۴۱۹</span>
+						</td><td class="GridItem PercentColumn Asset" style="color:Red;">
+							
+                            <span class="spanFormattedValue">(۵)</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl07_lblLiabilityDescription">سود سهام پرداختنی</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl08_lblAssetDescription">موجودی مواد و کالا</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۴,۵۷۱,۲۳۱</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۲,۲۱۱,۳۵۴</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۱۰۷</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl08_lblLiabilityDescription">تسهیلات مالی</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۵۰۵,۱۷۸</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl09_lblAssetDescription">پیش پرداخت‌ها و سفارشات</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۴۴۸,۹۹۹</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۵۷۰,۰۳۷</span>
+						</td><td class="GridItem PercentColumn Asset" style="color:Red;">
+							
+                            <span class="spanFormattedValue">(۲۱)</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl09_lblLiabilityDescription">ذخایر</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl10_lblAssetDescription">دارایی‌های نگهداری شده برای فروش</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl10_lblLiabilityDescription">پیش‌دریافت‌های جاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱۲۲,۰۵۲</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۱۱۹,۷۳۱</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۲</span>
+						</td>
+			</tr><tr>
+				<td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl11_lblAssetDescription">جمع دارایی‌های جاری</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۷,۴۶۲,۱۳۹</span>
+                        </td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۴,۳۶۲,۷۷۳</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۷۱</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl11_lblLiabilityDescription">بدهی‌های مرتبط با دارایی‌های نگهداری شده برای فروش</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl12_lblAssetDescription">دارایی‌‌های غیرجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl12_lblLiabilityDescription">جمع بدهی‌های جاری</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۷,۲۵۲,۸۰۹</span>
+						</td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۵,۰۷۱,۵۵۶</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۴۳</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl13_lblAssetDescription">دریافتنی‌‌های بلندمدت</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۶۴۰,۴۳۶</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۵۷۸,۹۴۹</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۱۱</span>
+						</td><td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl13_lblLiabilityDescription">بدهی‌های غیرجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl14_lblAssetDescription">سرمایه‌گذاری‌های بلندمدت</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۸۰۸</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۸۰۲</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۱</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl14_lblLiabilityDescription">پرداختنی‌های بلندمدت</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl15_lblAssetDescription">سرمایه‌گذاری در املاک</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl15_lblLiabilityDescription">پیش‌دریافت‌های غیرجاری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl16_lblAssetDescription">دارایی‌های نامشهود</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۴۰,۵۷۷</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۳,۵۰۸</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۱,۰۵۷</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl16_lblLiabilityDescription">تسهیلات مالی بلندمدت</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl17_lblAssetDescription">دارایی‌های ثابت مشهود</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۲,۱۰۵,۶۰۶</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۱,۹۳۱,۳۰۳</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۹</span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl17_lblLiabilityDescription">ذخیره مزایای پایان خدمت کارکنان</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱۶۰,۴۷۸</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۱۰۵,۹۲۹</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۵۱</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl18_lblAssetDescription">سایر دارایی‌ها</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td><td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl18_lblLiabilityDescription">جمع بدهی‌های غیرجاری</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱۶۰,۴۷۸</span>
+						</td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۱۰۵,۹۲۹</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۵۱</span>
+						</td>
+			</tr><tr>
+				<td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl19_lblAssetDescription">جمع دارایی‌های غیرجاری</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۲,۷۸۷,۴۲۷</span>
+                        </td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۲,۵۱۴,۵۶۲</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۱۱</span>
+						</td><td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl19_lblLiabilityDescription">جمع بدهی‌ها</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۷,۴۱۳,۲۸۷</span>
+						</td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۵,۱۷۷,۴۸۵</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۴۳</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl20_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GroupHeader Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl20_lblLiabilityDescription">حقوق صاحبان سهام</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue"></span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl21_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl21_lblLiabilityDescription">سرمایه</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱,۰۰۰,۰۰۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۱,۰۰۰,۰۰۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl22_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl22_lblLiabilityDescription">افزایش (کاهش) سرمایه در جریان</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl23_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl23_lblLiabilityDescription">صرف (کسر) سهام</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl24_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl24_lblLiabilityDescription">سهام خزانه</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl25_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl25_lblLiabilityDescription">اندوخته قانونی</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱۰۰,۰۰۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۴۹,۴۴۱</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۱۰۲</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl26_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl26_lblLiabilityDescription">سایر اندوخته‌ها</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl27_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl27_lblLiabilityDescription">مازاد تجدید ارزیابی دارایی‌های نگهداری شده برای فروش</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl28_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl28_lblLiabilityDescription">مازاد تجدید ارزیابی دارایی‌ها</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl29_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl29_lblLiabilityDescription">تفاوت تسعیر ناشی از تبدیل به واحد پول گزارشگری</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl30_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl30_lblLiabilityDescription">اندوخته تسعیر ارز دارایی‌ها و بدهی‌های شرکت‌های دولتی</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۰</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">--</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl31_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="SimpleRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl31_lblLiabilityDescription">سود (زیان) انباشته</span>
+						</td><td class="GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱,۷۳۶,۲۷۹</span>
+						</td><td class="GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۶۵۰,۴۰۹</span>
+						</td><td class="GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۱۶۷</span>
+						</td>
+			</tr><tr>
+				<td class="SimpleItem Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl32_lblAssetDescription"></span>
+						</td><td class="GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue"></span>
+                        </td><td class="GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue"></span>
+						</td><td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl32_lblLiabilityDescription">جمع حقوق صاحبان سهام</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۲,۸۳۶,۲۷۹</span>
+						</td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۱,۶۹۹,۸۵۰</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۶۷</span>
+						</td>
+			</tr><tr>
+				<td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl33_lblAssetDescription">جمع دارایی‌ها</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Asset">
+							
+                            <span class="spanFormattedValue">۱۰,۲۴۹,۵۶۶</span>
+                        </td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Asset">
+							
+                            <span class="spanFormattedValue">۶,۸۷۷,۳۳۵</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Asset">
+							
+                            <span class="spanFormattedValue">۴۹</span>
+						</td><td class="ComputationalRow Description">
+							<span id="ctl00_cphBody_ucSFinancialPosition_grdSFinancialPosition_ctl33_lblLiabilityDescription">جمع بدهی‌ها و حقوق صاحبان سهام</span>
+						</td><td class="ComputationalRow GridItem YearColumn CurrentPeriod Liability">
+							
+                            <span class="spanFormattedValue">۱۰,۲۴۹,۵۶۶</span>
+						</td><td class="ComputationalRow GridItem YearColumn PastYearEndToDate Liability">
+							
+                            <span class="spanFormattedValue">۶,۸۷۷,۳۳۵</span>
+						</td><td class="ComputationalRow GridItem PercentColumn Liability">
+							
+                            <span class="spanFormattedValue">۴۹</span>
+						</td>
+			</tr>
+		</tbody></table>
+	</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+                
+        
+</div>
+    <div class="clear height20">
+    </div>
+    <div class="wrapper">
+        <input name="ctl00$cphBody$btnCancel" type="button" id="ctl00_cphBody_btnCancel" class="pBtnOff" onmouseout="this.className='pBtnOff'" onmouseover="this.className='pBtnOn'" style="width: 80px; height: 22px; float: left;" value="خروج" onclick="window.close();">
+    </div>
+
+    
+
+
+
+
+
+
+</form>
+
+</body>
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت سود و زیان
+</h3>
+<hr>
+</div>
+<br>
+<head id="ctl00_Head1"><title>
+	صورت‌های مالی میاندوره‌ای 9 ماهه منتهی به 1397/09/30
+</title>
+   
+    <!--[if lt IE 7]>
+	<link href="../css/IE6_new_style.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+
+    
+
+    
+
+    
+
+    
+
+    
+<meta http-equiv="Cache - Control" content="no - cache, no - store, must - revalidate">
+<meta http-equiv="Pragma" content="no - cache">
+<meta http-equiv="Expires" content="0"></head>
+<body>
+    <form name="aspnetForm" method="post" action="" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+
+	
+	
+	
+</div>
+    
+    
+    
+    <div class="clear" style="height: 15px;">
+    </div>
+    
+    
+<style type="text/css">
+    .label
+    {
+        font-size: 8pt;
+        font-family: tahoma;
+    }
+</style>
+<div id="ctl00_ucSignature1_pnlMain" class="main_note" style="background-color:#C1E2B4;">
+    <div class="verify">
+       
+    
+    </div>
+    <div class="noteholder">
+        
+        
+        <div class="clear"></div>
+    </div>
+    <div class="clear">
+    </div>
+</div>
+
+    <div class="clear" style="height: 5px;">
+    </div>
+   <div class="errorHolder">
+        <span id="ctl00_lblError" class="Error" style="color:DarkRed;font-weight:bold;"></span>
+    </div>
+   
+   <div id="ctl00_divPriceNote" class="note_price">
+        <p id="ctl00_pPriceNote">کلیه مبالغ درج شده به میلیون ریال می باشد</p>
+    </div>
+   <div class="note_price_Excel">
+    
+    <a target="_blank" href="http://excel.codal.ir//service/excel/?letterSerial=BrKCsNQQQaQQQTl1YZvRr0%2bgq8QA%3d%3d&amp;sheetId=1&amp;languageId=0">    </a></div>
+    <div class="clear">
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style type="text/css">
+        .noWrap
+        {
+            white-space: nowrap;
+        }
+        .colorWhite
+        {
+        	color: white;
+        }
+        .ui-tinytbl-th
+        {
+            background-color: #007ec8;
+        }
+        .GridHeader th
+        {
+        	padding: 0;
+        }
+        .table_wrapper td
+        {
+        	/* IE7 and below */
+        	*padding: 0;
+        }
+        .wrapper
+        {
+        	width: 90%;
+        	margin: 0 auto;
+        }
+        .ui-tinytbl-lastrow, .ui-tinytbl-lastrow th
+        {
+            border-bottom: none;
+        }
+        .ui-tinytbl-firstcol, .firstcol
+        {
+        	border-right: solid 1px #BCBCBC;
+        }
+        .printButton
+        {
+        	float: left;
+        	*margin-top: -15px;
+        }
+        .Hidden
+        {
+        	display: none;
+        }
+    </style>
+    
+    
+    
+    
+    
+
+<br>
+
+
+    <div style="clear: both;"></div>
+    <div id="ctl00_cphBody_UpdatePanel1">
+	
+            
+                    
+
+
+<!--[if lt IE 7]>
+<link href="../css/IE6_html_format_style.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+
+
+
+
+
+<div class="table_holder">
+	<div class="table_wrapper" includeinexcel="true">
+		<table id="ctl00_cphBody_ucInterimStatement_tblGridHeader" width="100%" cellpadding="0" cellspacing="0">
+		<tbody><tr class="GridHeader" style="height: 30px;">
+			<th class="DescriptionColumn">
+					<span id="ctl00_cphBody_ucInterimStatement_lblDescription">شرح</span>
+				</th>
+			<th class="YearColumn CurrentPeriod">
+					<span id="ctl00_cphBody_ucInterimStatement_lblYear0">واقعی<br>دوره منتهی به <br>۱۳۹۷/۰۹/۳۰<br>(حسابرسی نشده)</span>
+				</th>
+			<th class="YearColumn PastSimillarPeriod">
+					<span id="ctl00_cphBody_ucInterimStatement_lblYear1">واقعی<br>دوره منتهی به <br>۱۳۹۶/۰۹/۳۰<br>(حسابرسی شده)</span>
+				</th>
+			<th class="PercentColumn">
+					<span id="ctl00_cphBody_ucInterimStatement_lblPercentChange">درصد<br> تغییرات</span>
+				</th>
+			<th id="ctl00_cphBody_ucInterimStatement_thPastYearEndToDate" class="YearColumn PastYearEndToDate">
+					<span id="ctl00_cphBody_ucInterimStatement_lblYear2">واقعی<br>سال مالی منتهی به<br>۱۳۹۶/۱۲/۲۹<br>(حسابرسی شده)</span>
+				</th>
+		</tr>
+	</tbody></table>
+	
+		<div>
+		<table tabindex="6" class="Grid table_wrapper" cellspacing="0" cellpadding="3" rules="all" border="1" id="ctl00_cphBody_ucInterimStatement_grdInterimStatement" style="width:100%;border-collapse:collapse;">
+			<tbody><tr class="SimpleRow">
+				<td class="DescriptionColumn" style="color: darkgreen;">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl07_lblGridDescription">دوره منتهی به </span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color: darkgreen;">
+						
+                        <span class="spanFormattedValue">۱۳۹۷/۰۹/۳۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod" style="color: darkgreen;">
+						
+                        <span class="spanFormattedValue">۱۳۹۶/۰۹/۳۰</span>
+					</td><td class="GridItem PercentColumn" style="color: darkgreen;">
+						
+                            <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color: darkgreen;">
+						
+                        <span class="spanFormattedValue">۱۳۹۶/۱۲/۲۹</span>
+					</td>
+			</tr><tr class="GroupHeader">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl19_lblGridDescription">سود (زیان) خالص</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue"></span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl20_lblGridDescription">درآمدهای عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۳۵,۴۹۵,۰۵۲</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۲۹,۰۹۲,۲۱۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl21_lblGridDescription">بهای تمام ‌شده درآمدهای عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۲۸,۷۳۴,۶۷۹)</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۲۴,۳۰۱,۸۶۵)</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl22_lblGridDescription">سود (زیان) ناخالص</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۶,۷۶۰,۳۷۳</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۴,۷۹۰,۳۴۵</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl23_lblGridDescription">هزینه‌های فروش، اداری و عمومی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۵,۴۱۱,۳۳۳)</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۴,۴۲۷,۹۲۶)</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl24_lblGridDescription">سایر درآمدهای عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۷۵۴,۱۵۶</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۴۴۱,۱۹۵</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl25_lblGridDescription">سایر هزینه‌های عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl26_lblGridDescription">سود (زیان) عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۲,۱۰۳,۱۹۶</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۸۰۳,۶۱۴</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl27_lblGridDescription">هزینه‌های مالی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۵,۱۷۸)</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl28_lblGridDescription">سایر درآمدها و هزینه‌های غیرعملیاتی- درآمد سرمایه‌گذاری‌ها</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۶۵,۶۳۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۴۱,۶۱۸</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl29_lblGridDescription">سایر درآمدها و هزینه‌های غیرعملیاتی- اقلام متفرقه</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl30_lblGridDescription">سود (زیان) عملیات در حال تداوم قبل از مالیات</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۲,۱۶۳,۶۴۸</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۸۴۵,۲۳۲</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl31_lblGridDescription">مالیات بر درآمد</span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۳۷۷,۲۱۹)</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۱۶۱,۲۰۵)</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl32_lblGridDescription">سود (زیان) خالص عملیات در حال تداوم</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۷۸۶,۴۲۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۶۸۴,۰۲۷</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl33_lblGridDescription">سود (زیان) عملیات متوقف ‌شده پس از اثر مالیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl34_lblGridDescription">سود (زیان) خالص</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۷۸۶,۴۲۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۶۸۴,۰۲۷</span>
+					</td>
+			</tr><tr class="GroupHeader">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl35_lblGridDescription">سود (زیان) پایه هر سهم</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue"></span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl36_lblGridDescription">سود (زیان) پایه هر سهم ناشی از عملیات در حال تداوم- عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl37_lblGridDescription">سود (زیان) پایه هر سهم ناشی از عملیات در حال تداوم- غیرعملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl38_lblGridDescription">سود (زیان) پایه هر سهم ناشی از عملیات متوقف‌ شده</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl39_lblGridDescription">سود (زیان) پایه هر سهم</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="GroupHeader">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl40_lblGridDescription">سود (زیان) تقلیل یافته هر سهم</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue"></span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl41_lblGridDescription">سود (زیان) تقلیل یافته هر سهم ناشی از عملیات در حال تداوم- عملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl42_lblGridDescription">سود (زیان) تقلیل یافته هر سهم ناشی از عملیات در حال تداوم- غیرعملیاتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl43_lblGridDescription">سود (زیان) تقلیل یافته هر سهم ناشی از عملیات متوقف ‌شده</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl44_lblGridDescription">سود (زیان) تقلیل یافته هر سهم</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="GroupHeader">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl45_lblGridDescription">گردش حساب سود (زیان) انباشته</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue"></span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue"></span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue"></span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl46_lblGridDescription">سود (زیان) خالص</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۷۸۶,۴۲۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۶۸۴,۰۲۷</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl47_lblGridDescription">سود (زیان) انباشته ابتدای دوره</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۶۵۰,۴۰۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۲۷۹,۱۹۲</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">۱۳۳</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۲۷۹,۱۹۲</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl48_lblGridDescription">تعدیلات سنواتی</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۲۸,۶۰۹)</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl49_lblGridDescription">سود (زیان) انباشته ابتدای دوره تعدیل ‌شده</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۶۵۰,۴۰۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۲۷۹,۱۹۲</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">۱۳۳</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۲۵۰,۵۸۳</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl50_lblGridDescription">سود سهام‌ مصوب</span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۶۵۰,۰۰۰)</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۲۵۰,۰۰۰)</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl51_lblGridDescription">تغییرات سرمایه از محل سود (زیان) انباشته</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl52_lblGridDescription">سود (زیان) انباشته ابتدای دوره تخصیص نیافته</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۴۰۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۲۷۹,۱۹۲</span>
+					</td><td class="GridItem PercentColumn" style="color:Red;">
+						
+                            <span class="spanFormattedValue">(۱۰۰)</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۵۸۳</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl53_lblGridDescription">انتقال از سایر اقلام حقوق صاحبان سهام</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl54_lblGridDescription">سود قابل تخصیص</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۷۸۶,۸۳۸</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۲۷۹,۱۹۲</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">۵۴۰</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۶۸۴,۶۱۰</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl55_lblGridDescription">انتقال به اندوخته‌ قانوني‌</span>
+					</td><td class="GridItem YearColumn CurrentPeriod" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۵۰,۵۵۹)</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate" style="color:Red;">
+						
+                        <span class="spanFormattedValue">(۳۴,۲۰۱)</span>
+					</td>
+			</tr><tr class="SimpleRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl56_lblGridDescription">انتقال به سایر اندوخته‌ها</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl57_lblGridDescription">سود (زیان) انباشته‌ پايان‌ دوره</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۷۳۶,۲۷۹</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۲۷۹,۱۹۲</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">۵۲۲</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۶۵۰,۴۰۹</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl58_lblGridDescription">سود (زیان) خالص هر سهم– ریال</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۷۸۶</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">--</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۶۸۴</span>
+					</td>
+			</tr><tr class="ComputationalRow">
+				<td class="DescriptionColumn">
+						<span id="ctl00_cphBody_ucInterimStatement_grdInterimStatement_ctl59_lblGridDescription">سرمایه</span>
+					</td><td class="GridItem YearColumn CurrentPeriod">
+						
+                        <span class="spanFormattedValue">۱,۰۰۰,۰۰۰</span>
+					</td><td class="GridItem YearColumn PastSimillarPeriod">
+						
+                        <span class="spanFormattedValue">۱,۰۰۰,۰۰۰</span>
+					</td><td class="GridItem PercentColumn">
+						
+                            <span class="spanFormattedValue">۰</span>
+					</td><td class="GridItem YearColumn PastYearEndToDate">
+						
+                        <span class="spanFormattedValue">۱,۰۰۰,۰۰۰</span>
+					</td>
+			</tr>
+		</tbody></table>
+	</div>
+	</div>
+</div>
+<div class="Dsc">
+	
+	<br>
+	
+</div>
+<div class="Dsc">
+	
+	<br>
+	
+</div>
+<div class="Dsc">
+	
+	<br>
+	
+</div>
+
+
+
+
+
+
+                
+        
+</div>
+    <div class="clear height20">
+    </div>
+    <div class="wrapper">
+        <input name="ctl00$cphBody$btnCancel" type="button" id="ctl00_cphBody_btnCancel" class="pBtnOff" onmouseout="this.className='pBtnOff'" onmouseover="this.className='pBtnOn'" style="width: 80px; height: 22px; float: left;" value="خروج" onclick="window.close();">
+    </div>
+
+    
+
+
+
+
+
+
+</form>
+
+</body>
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+جریان وجوه نقد
+</h3>
+<hr>
+</div>
+<br>
+<head id="ctl00_Head1"><title>
+	صورت‌های مالی میاندوره‌ای 9 ماهه منتهی به 1397/09/30
+</title>
+   
+    <!--[if lt IE 7]>
+	<link href="../css/IE6_new_style.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+
+    
+
+    
+
+    
+
+    
+
+    
+<meta http-equiv="Cache - Control" content="no - cache, no - store, must - revalidate">
+<meta http-equiv="Pragma" content="no - cache">
+<meta http-equiv="Expires" content="0"></head>
+<body>
+    <form name="aspnetForm" method="post" action="" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+
+	
+	
+	
+</div>
+    
+    
+    
+    <div class="clear" style="height: 15px;">
+    </div>
+    
+    
+<style type="text/css">
+    .label
+    {
+        font-size: 8pt;
+        font-family: tahoma;
+    }
+</style>
+<div id="ctl00_ucSignature1_pnlMain" class="main_note" style="background-color:#C1E2B4;">
+    <div class="verify">
+       
+    
+    </div>
+    <div class="noteholder">
+        
+        
+        <div class="clear"></div>
+    </div>
+    <div class="clear">
+    </div>
+</div>
+
+    <div class="clear" style="height: 5px;">
+    </div>
+   <div class="errorHolder">
+        <span id="ctl00_lblError" class="Error" style="color:DarkRed;font-weight:bold;"></span>
+    </div>
+   
+   <div id="ctl00_divPriceNote" class="note_price">
+        <p id="ctl00_pPriceNote">کلیه مبالغ درج شده به میلیون ریال می باشد</p>
+    </div>
+   <div class="note_price_Excel">
+    
+    <a target="_blank" href="http://excel.codal.ir//service/excel/?letterSerial=BrKCsNQQQaQQQTl1YZvRr0%2bgq8QA%3d%3d&amp;sheetId=9&amp;languageId=0">    </a></div>
+    <div class="clear">
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style type="text/css">
+        .noWrap
+        {
+            white-space: nowrap;
+        }
+        .colorWhite
+        {
+        	color: white;
+        }
+        .ui-tinytbl-th
+        {
+            background-color: #007ec8;
+        }
+        .GridHeader th
+        {
+        	padding: 0;
+        }
+        .table_wrapper td
+        {
+        	/* IE7 and below */
+        	*padding: 0;
+        }
+        .wrapper
+        {
+        	width: 90%;
+        	margin: 0 auto;
+        }
+        .ui-tinytbl-lastrow, .ui-tinytbl-lastrow th
+        {
+            border-bottom: none;
+        }
+        .ui-tinytbl-firstcol, .firstcol
+        {
+        	border-right: solid 1px #BCBCBC;
+        }
+        .printButton
+        {
+        	float: left;
+        	*margin-top: -15px;
+        }
+        .Hidden
+        {
+        	display: none;
+        }
+    </style>
+    
+    
+    
+    
+    
+
+<br>
+
+
+    <div style="clear: both;"></div>
+    <div id="ctl00_cphBody_UpdatePanel1">
+	
+            
+                    
+
+<!--[if lt IE 7]>
+<link href="../css/IE6_new_style.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+
+    <style type="text/css">
+        .DescriptionWrapper { margin: 0 auto; width: 90%; }
+    </style>
+
+
+
+<style type="text/css">
+    .GridCF
+    {
+	    width: 100%; /*font-family: tahoma;*/
+	    font-size: 8pt;
+	    border-collapse: collapse;
+    }
+    .table_wrapper table
+    {
+	    border: none;
+    }
+    .table_wrapper td
+    {
+	    padding: 0;
+	    height: 20px;
+	    border-left: 1px solid #DEDEDE;
+	    text-align: justify;
+    }
+    .GridCF td span
+    {
+	    padding: 0 5px;
+    }
+    .table_wrapper td input
+    {
+	    text-align: center;
+	    font-size: 8pt;
+    }
+    tr.GridHeader td
+    {
+	    color: White;
+    }
+    .table_wrapper tbody tr.GridHeader:hover
+    {
+    	background-color: #909090;
+    }
+    tr.GridFooter td
+    {
+    	color: Maroon;
+    }
+</style>
+
+
+
+<div class="table_holder">
+	<div class="table_wrapper" includeinexcel="true">
+
+        <table width="100%" cellpadding="0" cellspacing="0">
+        <tbody><tr class="GridHeader" style="height: 30px;">
+            <th>
+                <span id="ctl00_cphBody_ucCashFlow1_lblDescription">شرح</span>
+            </th>
+            <th style="width: 12%;">
+                <span id="ctl00_cphBody_ucCashFlow1_lblIsReal1" class="label">واقعی</span>
+                <br>
+                <span id="ctl00_cphBody_ucCashFlow1_lblYearDesc1" class="label">دوره منتهی به <bdo dir="ltr">1397/09/30</bdo></span>
+                <br>
+                <span id="ctl00_cphBody_ucCashFlow1_lblIsAudited1" class="label">حسابرسی نشده</span>
+                <br>
+                <span id="ctl00_cphBody_ucCashFlow1_lblYear1" class="label" style="display: none;"></span>
+            </th>
+            <th style="width: 12%;">
+                <span id="ctl00_cphBody_ucCashFlow1_lblIsReal2" class="label">واقعی</span>
+               <br>
+                <span id="ctl00_cphBody_ucCashFlow1_lblYearDesc2" class="label"></span>
+                <br>
+                حسابرسی شده
+                <br>
+                <span id="ctl00_cphBody_ucCashFlow1_lblYear2" class="label">1396/09/30</span>
+            </th>
+            <th style="width: 6%;">
+                <span id="ctl00_cphBody_ucCashFlow1_lblPercentChange" class="label">درصد<br> تغییرات</span>
+            </th>
+            <th id="ctl00_cphBody_ucCashFlow1_thPastYearAudited" style="width: 12%;">
+                واقعی
+                <br>
+                حسابرسی شده
+                <br>
+                <span id="ctl00_cphBody_ucCashFlow1_lblYear3" class="label">1396/12/29</span>
+            </th>
+	
+        </tr>
+        </tbody></table>
+        
+        <div style="border: 1px solid #bcbcbc;">
+            <div>
+		<table tabindex="6" class="GridCF" cellspacing="0" cellpadding="3" rules="all" border="1" id="ctl00_cphBody_ucCashFlow1_gvCashFlow" style="width:100%;border-collapse:collapse;cursor: pointer">
+			<tbody><tr class="GridHeader">
+				<td>
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl02_lblDescriptionText">فعالیت‌های عملیاتی</span>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl03_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد ناشی از فعالیت‌های عملیاتی- عادی</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>453,441</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>313,364</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl04_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد ناشی از فعالیت‌های عملیاتی- استثنایی</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl05_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد ناشی از فعالیت‌های عملیاتی</span>
+                            
+                        </td><td>
+                            <span>453,441</span>
+                        </td><td>
+                            <span>0</span>
+                        </td><td>
+                            <span>--</span>
+                        </td><td>
+                            <span>313,364</span>
+                        </td>
+			</tr><tr class="GridHeader">
+				<td>
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl06_lblDescriptionText">بازده سرمایه گذاری‌ها و سود پرداختی بابت تأمین مالی</span>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl07_lblDescriptionText">سود سهام دریافتی</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl08_lblDescriptionText">سود پرداختی بابت استقراض</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl09_lblDescriptionText">سود دریافتی بابت سایر سرمایه‌گذاری‌ها</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>44,211</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>36,648</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl10_lblDescriptionText">سود سهام پرداختی</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl11_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد ناشی از بازده سرمایه‌گذاری‌ها و سود پرداختی بابت تأمین مالی</span>
+                            
+                        </td><td>
+                            <span>44,211</span>
+                        </td><td>
+                            <span>0</span>
+                        </td><td>
+                            <span>--</span>
+                        </td><td>
+                            <span>36,648</span>
+                        </td>
+			</tr><tr class="GridHeader">
+				<td>
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl12_lblDescriptionText">مالیات بر درآمد</span>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td>
+			</tr><tr class="GridFooter">
+				<td style="background-color:#E8E8E8; background-color:#F9E7A7;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl13_lblDescriptionText">مالیات بر درآمد پرداختی</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>(161,205)</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>(75,000)</span>
+                        </td>
+			</tr><tr class="GridHeader">
+				<td>
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl14_lblDescriptionText">فعالیت‌های سرمایه گذاری</span>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl15_lblDescriptionText">وجوه دریافتی بابت فروش دارایی‌های ثابت مشهود</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>11,525</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl16_lblDescriptionText">وجوه پرداختی بابت خرید دارایی‌های ثابت مشهود</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>(507,550)</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>(697,802)</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl17_lblDescriptionText">وجوه دریافتی بابت فروش دارایی‌های نامشهود</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl18_lblDescriptionText">وجوه پرداختی بابت خرید دارایی‌های نامشهود‌</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>(224)</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>(909)</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl19_lblDescriptionText">وجوه دریافتی بابت فروش سرمایه‌گذاری‌های بلندمدت</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl20_lblDescriptionText">تسهیلات اعطایی به اشخاص</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl21_lblDescriptionText">استرداد تسهیلات اعطایی به اشخاص</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl22_lblDescriptionText">وجوه پرداختی بابت خرید سرمایه‌گذاری‌های بلندمدت</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl23_lblDescriptionText">وجوه دریافتی بابت فروش سرمایه‌گذاری‌های کوتاه‌مدت</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>70,375</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl24_lblDescriptionText">وجوه پرداختی بابت خرید سرمایه‌گذاری‌های کوتاه‌مدت</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>(206,525)</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl25_lblDescriptionText">وجوه دریافتی بابت فروش سرمایه‌گذاری‌ در املاک</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl26_lblDescriptionText">وجوه پرداختی بابت خرید سرمایه‌گذاری در املاک</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl27_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد ناشی از فعالیت‌های سرمایه‌گذاری</span>
+                            
+                        </td><td>
+                            <span>(507,774)</span>
+                        </td><td>
+                            <span>0</span>
+                        </td><td>
+                            <span>--</span>
+                        </td><td>
+                            <span>(823,336)</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;font-weight:bold;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl28_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد قبل از فعالیت‌های تأمین مالی</span>
+                            
+                        </td><td>
+                            <span>(171,327)</span>
+                        </td><td>
+                            <span>0</span>
+                        </td><td>
+                            <span>--</span>
+                        </td><td>
+                            <span>(548,324)</span>
+                        </td>
+			</tr><tr class="GridHeader">
+				<td>
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl29_lblDescriptionText">فعالیت‌های تأمین مالی</span>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td><td>
+                            
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl30_lblDescriptionText">وجوه دریافتی حاصل از افزایش سرمایه</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>550,000</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl31_lblDescriptionText">وجوه دریافتی بابت فروش سهام خزانه</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl32_lblDescriptionText">وجوه پرداختی بابت خرید سهام خزانه</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl33_lblDescriptionText">وجوه دریافتی حاصل از استقراض</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>500,000</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl34_lblDescriptionText">بازپرداخت اصل استقراض</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl35_lblDescriptionText">جریان خالص ورود (خروج) وجه نقد ناشی از فعالیت‌های تأمین مالی</span>
+                            
+                        </td><td>
+                            <span>500,000</span>
+                        </td><td>
+                            <span>0</span>
+                        </td><td>
+                            <span>--</span>
+                        </td><td>
+                            <span>550,000</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl36_lblDescriptionText">خالص افزایش (کاهش) در موجودی نقد</span>
+                            
+                        </td><td>
+                            <span>328,673</span>
+                        </td><td>
+                            <span>0</span>
+                        </td><td>
+                            <span>--</span>
+                        </td><td>
+                            <span>1,676</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl37_lblDescriptionText">موجودی نقد در ابتدای دوره</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>425,879</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>424,203</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>424,203</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl38_lblDescriptionText">تآثیر تغییرات نرخ ارز</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td>
+			</tr><tr class="GridFooter" style="text-align:center;">
+				<td style="text-align:justify;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl39_lblDescriptionText">موجودی نقد در پایان دوره</span>
+                            
+                        </td><td>
+                            <span>754,552</span>
+                        </td><td>
+                            <span>424,203</span>
+                        </td><td>
+                            <span>78</span>
+                        </td><td>
+                            <span>425,879</span>
+                        </td>
+			</tr><tr class="SimpleRow">
+				<td style="background-color:#E8E8E8;">
+                            <span id="ctl00_cphBody_ucCashFlow1_gvCashFlow_ctl40_lblDescriptionText">مبادلات غیرنقدی</span>
+                            
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>0</span>
+                        </td><td align="center" style="width:6%;">
+                            <span>--</span>
+                        </td><td align="center" style="width:12%;">
+                            <span>250,000</span>
+                        </td>
+			</tr>
+		</tbody></table>
+	</div>
+        </div>
+    </div>
+</div>
+
+<div class="DescriptionWrapper">
+    <br>
+    <div>
+        <span id="ctl00_cphBody_ucCashFlow1_lblDsc11" class="label" style="color:Blue;">دلایل تغییر اطلاعات</span>
+        <bdo dir="ltr">
+            <span id="ctl00_cphBody_ucCashFlow1_lblCashFlowDsc1" class="label" style="color:#C00000;"> 1397/09/30 </span>
+        </bdo>
+        <span id="ctl00_cphBody_ucCashFlow1_lblDsc12" class="label" style="color:Blue;">نسبت به اطلاعیه قبلی</span>
+        <span></span>
+    </div>
+    <br>
+    <div>
+        <span id="ctl00_cphBody_ucCashFlow1_lblDsc21" class="label" style="color:Blue;">دلایل تغییر اطلاعات</span>
+        <bdo dir="ltr">
+            <span id="ctl00_cphBody_ucCashFlow1_lblCashFlowDsc2" class="label" style="color:#C00000;"> 1396/09/30 </span>
+        </bdo>
+        <span id="ctl00_cphBody_ucCashFlow1_lblDsc22" class="label" style="color:Blue;">نسبت به اطلاعیه قبلی</span>
+        <span></span>
+    </div>
+    <br>
+    <div id="ctl00_cphBody_ucCashFlow1_divDsc3">
+        <span id="ctl00_cphBody_ucCashFlow1_lblDsc31" class="label" style="color:Blue;">دلایل تغییر اطلاعات</span>
+        <bdo dir="ltr">
+            <span id="ctl00_cphBody_ucCashFlow1_lblCashFlowDsc3" class="label" style="color:#C00000;"> 1396/12/29 </span>
+        </bdo>
+        <span id="ctl00_cphBody_ucCashFlow1_lblDsc32" class="label" style="color:Blue;">نسبت به اطلاعیه قبلی</span>
+        <span></span>
+    </div>
+</div>
+
+<span id="ctl00_cphBody_ucCashFlow1_lblInfoMsg" class="Error" style="color:Red;font-weight:bold;"></span>
+
+
+
+
+                
+        
+</div>
+    <div class="clear height20">
+    </div>
+    <div class="wrapper">
+        <input name="ctl00$cphBody$btnCancel" type="button" id="ctl00_cphBody_btnCancel" class="pBtnOff" onmouseout="this.className='pBtnOff'" onmouseover="this.className='pBtnOn'" style="width: 80px; height: 22px; float: left;" value="خروج" onclick="window.close();">
+    </div>
+
+    
+
+
+
+
+
+
+</form>
+
+</body>
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 1
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="codalApp" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container ng-scope" ng-controller="statementController as ctrl">
+            <!-- ngRepeat: sheet in ctrl.datasource.sheets -->
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 2
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="codalApp" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container ng-scope" ng-controller="statementController as ctrl">
+            <!-- ngRepeat: sheet in ctrl.datasource.sheets -->
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 3
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="codalApp" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container ng-scope" ng-controller="statementController as ctrl">
+            <!-- ngRepeat: sheet in ctrl.datasource.sheets -->
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 4
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="codalApp" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container ng-scope" ng-controller="statementController as ctrl">
+            <!-- ngRepeat: sheet in ctrl.datasource.sheets -->
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 5
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="codalApp" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container ng-scope" ng-controller="statementController as ctrl">
+            <!-- ngRepeat: sheet in ctrl.datasource.sheets -->
+        </div>
+    </div>
+
+</div>
+<br>
+</body>
+</html>
+</body>
+</html>
+
+
+
+

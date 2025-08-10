@@ -1,0 +1,540 @@
+﻿@model CodalSearchViewModel
+
+@{
+    ViewData["Title"] = "جستجو در سایت کدال";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+    .search-container {
+        font-family: 'Vazirmatn', sans-serif;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 15px;
+        min-height: 80vh;
+    }
+
+    .search-card {
+        width: 100%;
+        max-width: 500px;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        position: relative;
+    }
+
+        .search-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+            pointer-events: none;
+        }
+
+    .search-title {
+        color: #1e3a8a;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .form-group {
+        margin-bottom: 22px;
+        text-align: right;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 8px;
+        color: #334155;
+        font-weight: 500;
+        text-align: right;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        font-family: 'Vazirmatn', sans-serif;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        text-align: right;
+        direction: rtl;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+
+        .form-control::placeholder {
+            color: #94a3b8;
+            text-align: right;
+        }
+
+    .text-danger {
+        color: #ef4444;
+        font-size: 12px;
+        margin-top: 5px;
+        display: block;
+        text-align: right;
+    }
+
+    .search-button {
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 14px 20px;
+        font-family: 'Vazirmatn', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 10px;
+    }
+
+        .search-button:hover {
+            background-color: #1e40af;
+            transform: translateY(-2px);
+        }
+
+    .spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid rgba(0, 123, 255, 0.2);
+        border-radius: 50%;
+        border-top-color: #007bff;
+        animation: spin 1s ease-in-out infinite;
+        margin: 0 auto;
+    }
+
+    @@keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .status-item {
+        padding: 8px 12px;
+        margin-bottom: 5px;
+        border-radius: 6px;
+        background-color: #f1f5f9;
+        border-left: 4px solid #64748b;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+        .status-item.status-info {
+            background-color: #eff6ff;
+            border-left-color: #3b82f6;
+            color: #1e40af;
+        }
+
+        .status-item.status-success {
+            background-color: #f0fdf4;
+            border-left-color: #22c55e;
+            color: #166534;
+        }
+
+        .status-item.status-warning {
+            background-color: #fffbeb;
+            border-left-color: #f59e0b;
+            color: #92400e;
+        }
+
+        .status-item.status-error {
+            background-color: #fef2f2;
+            border-left-color: #ef4444;
+            color: #dc2626;
+        }
+
+    #statusHistory {
+        max-height: 250px;
+        overflow-y: auto;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 10px;
+        direction: rtl;
+    }
+
+        #statusHistory::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #statusHistory::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 3px;
+        }
+
+        #statusHistory::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+    .progress {
+        height: 10px;
+        background-color: #e2e8f0;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+
+    .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+        transition: width 0.3s ease;
+    }
+
+    .connection-status {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        z-index: 1001;
+        transition: all 0.3s ease;
+    }
+
+        .connection-status.connected {
+            background-color: #22c55e;
+        }
+
+        .connection-status.disconnected {
+            background-color: #ef4444;
+        }
+
+        .connection-status.connecting {
+            background-color: #f59e0b;
+        }
+
+    /* تنظیمات پاسخگویی */
+    @@media (max-width: 768px) {
+        .search-card {
+            padding: 20px;
+        }
+
+        .search-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        #statusHistory {
+            max-height: 150px;
+        }
+
+        .connection-status {
+            top: 10px;
+            right: 10px;
+            font-size: 11px;
+            padding: 6px 12px;
+        }
+    }
+</style>
+
+<div class="search-container">
+    <div class="search-card">
+        <h2 class="search-title">جستجو در سایت کدال</h2>
+        <form asp-action="Search" method="post" id="searchForm">
+            <div class="form-group">
+                <label class="form-label" for="Symbol">نماد شرکت:</label>
+                <input asp-for="Symbol" class="form-control" id="Symbol" placeholder="مثال: زفکا، افق" />
+                <span asp-validation-for="Symbol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Keyword">کلمه کلیدی:</label>
+                <input asp-for="Keyword" class="form-control" id="Keyword" placeholder="مثال: گزارش فعالیت ماهانه" />
+                <span asp-validation-for="Keyword" class="text-danger"></span>
+            </div>
+            <div id="additionalField" class="form-group" style="display: none;">
+                <!-- فیلد اضافی که با جاوااسکریپت نمایش داده می‌شود -->
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submitBtn" class="search-button">جستجو</button>
+                <button type="button" id="downloadExcelBtn" class="search-button" style="display: none;">دانلود اکسل</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Connection Status Indicator -->
+<div id="connectionStatus" class="connection-status connecting">در حال اتصال...</div>
+
+<!-- Loading Overlay with SignalR Status -->
+<div id="loadingOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.95); z-index:1000; text-align:center; direction: rtl;">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width: 85%; max-width: 700px;">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+        <p id="statusMessage" style="font-family: 'Vazirmatn'; margin-top: 20px; font-size: 18px; color: #334155; font-weight: 500;">در حال پردازش...</p>
+        <div class="progress">
+            <div id="progressBar" class="progress-bar" style="width: 0%"></div>
+        </div>
+        <div id="statusHistory" style="margin-top: 25px; text-align: right;">
+            <div class="status-item status-info">
+                <strong>آماده برای دریافت وضعیت...</strong>
+            </div>
+        </div>
+        <button id="cancelBtn" class="search-button" style="width: auto; padding: 10px 20px; margin-top: 15px; background-color: #ef4444;">
+            لغو عملیات
+        </button>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script>
+        let connection = null;
+        let isSearchInProgress = false;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSignalR();
+            setupEventListeners();
+        });
+
+        function initializeSignalR() {
+            // بررسی وجود SignalR
+            if (typeof signalR === 'undefined') {
+                console.error('SignalR library not loaded correctly');
+                updateConnectionStatus('disconnected', 'خطای بارگذاری');
+                return;
+            }
+
+            updateConnectionStatus('connecting', 'در حال اتصال...');
+
+            // ایجاد اتصال SignalR
+            connection = new signalR.HubConnectionBuilder()
+                .withUrl("/processingHub")
+                .withAutomaticReconnect({
+                    nextRetryDelayInMilliseconds: retryContext => {
+                        if (retryContext.previousRetryCount === 0) {
+                            return 0;
+                        }
+                        return Math.min(retryContext.previousRetryCount * 1000, 30000);
+                    }
+                })
+                .configureLogging(signalR.LogLevel.Information)
+                .build();
+
+            // رویدادهای اتصال
+            connection.onreconnecting(() => {
+                updateConnectionStatus('connecting', 'در حال اتصال مجدد...');
+                console.log('SignalR reconnecting...');
+            });
+
+            connection.onreconnected(() => {
+                updateConnectionStatus('connected', 'متصل');
+                console.log('SignalR reconnected!');
+            });
+
+            connection.onclose(() => {
+                updateConnectionStatus('disconnected', 'اتصال قطع شد');
+                console.log('SignalR connection closed');
+            });
+
+            // شروع اتصال
+            connection.start()
+                .then(() => {
+                    updateConnectionStatus('connected', 'متصل');
+                    console.log("SignalR Connected successfully!");
+
+                    // ثبت handlers پس از اتصال موفق
+                    setupSignalRHandlers();
+                })
+                .catch(err => {
+                    console.error("SignalR Connection Error:", err);
+                    updateConnectionStatus('disconnected', 'خطای اتصال');
+
+                    // نمایش خطا به کاربر
+                    if (isSearchInProgress) {
+                        addStatusItem("خطا در اتصال به سرور. عملیات ممکن است ادامه داشته باشد.", "error");
+                    }
+                });
+        }
+
+        function setupSignalRHandlers() {
+            if (!connection) return;
+
+            // دریافت به‌روزرسانی وضعیت
+            connection.on("UpdateStatus", (message, type = "info") => {
+                console.log(`Status: ${message} (${type})`);
+
+                // به‌روزرسانی پیام اصلی
+                const statusMessage = document.getElementById("statusMessage");
+                if (statusMessage) {
+                    statusMessage.innerText = message;
+                }
+
+                // اضافه کردن به تاریخچه
+                addStatusItem(message, type);
+
+                // در صورت موفقیت، عملیات را پس از چند ثانیه خاتمه دهیم
+                if (type === "success" && message.includes("موفقیت")) {
+                    setTimeout(() => {
+                        hideLoadingOverlay();
+                    }, 3000);
+                }
+            });
+
+            // دریافت به‌روزرسانی پیشرفت
+            connection.on("UpdateProgress", (percentage) => {
+                console.log(`Progress: ${percentage}%`);
+                updateProgressBar(percentage);
+            });
+        }
+
+        function setupEventListeners() {
+            // ارسال فرم
+            const searchForm = document.getElementById("searchForm");
+            if (searchForm) {
+                searchForm.addEventListener("submit", function(e) {
+                    e.preventDefault();
+                    startSearch();
+                });
+            }
+
+            // دکمه لغو
+            const cancelBtn = document.getElementById("cancelBtn");
+            if (cancelBtn) {
+                cancelBtn.addEventListener("click", function() {
+                    hideLoadingOverlay();
+                });
+            }
+
+            // کلید ESC برای بستن overlay
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && isSearchInProgress) {
+                    hideLoadingOverlay();
+                }
+            });
+        }
+
+        function startSearch() {
+            isSearchInProgress = true;
+
+            // بازنشانی وضعیت
+            resetSearchStatus();
+
+            // نمایش loading overlay
+            showLoadingOverlay();
+
+            // ارسال فرم
+            const searchForm = document.getElementById("searchForm");
+            if (searchForm) {
+                searchForm.submit();
+            }
+        }
+
+        function resetSearchStatus() {
+            // بازنشانی نوار پیشرفت
+            updateProgressBar(0);
+
+            // پاک کردن تاریخچه وضعیت
+            const statusHistory = document.getElementById("statusHistory");
+            if (statusHistory) {
+                statusHistory.innerHTML = '<div class="status-item status-info"><strong>شروع عملیات جستجو...</strong></div>';
+            }
+
+            // بازنشانی پیام وضعیت
+            const statusMessage = document.getElementById("statusMessage");
+            if (statusMessage) {
+                statusMessage.innerText = "در حال آماده‌سازی...";
+            }
+        }
+
+        function showLoadingOverlay() {
+            const loadingOverlay = document.getElementById("loadingOverlay");
+            if (loadingOverlay) {
+                loadingOverlay.style.display = "block";
+            }
+        }
+
+        function hideLoadingOverlay() {
+            const loadingOverlay = document.getElementById("loadingOverlay");
+            if (loadingOverlay) {
+                loadingOverlay.style.display = "none";
+            }
+            isSearchInProgress = false;
+        }
+
+        function addStatusItem(message, type = "info") {
+            const timestamp = new Date().toLocaleTimeString('fa-IR');
+            const statusItem = document.createElement("div");
+            statusItem.className = `status-item status-${type}`;
+
+            // آیکون بر اساس نوع پیام
+            let icon = '';
+            switch(type) {
+                case 'success':
+                    icon = '✓';
+                    break;
+                case 'error':
+                    icon = '✗';
+                    break;
+                case 'warning':
+                    icon = '⚠';
+                    break;
+                default:
+                    icon = 'ℹ';
+            }
+
+            statusItem.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span>${icon} ${message}</span>
+                    <small style="color: #64748b; font-size: 11px;">${timestamp}</small>
+                </div>
+            `;
+
+            const statusHistory = document.getElementById("statusHistory");
+            if (statusHistory) {
+                statusHistory.appendChild(statusItem);
+                statusHistory.scrollTop = statusHistory.scrollHeight;
+
+                // محدود کردن تعداد آیتم‌ها
+                const items = statusHistory.querySelectorAll('.status-item');
+                if (items.length > 20) {
+                    items[0].remove();
+                }
+            }
+        }
+
+        function updateProgressBar(percentage) {
+            const progressBar = document.getElementById("progressBar");
+            if (progressBar) {
+                progressBar.style.width = `${percentage}%`;
+                progressBar.setAttribute("aria-valuenow", percentage);
+            }
+        }
+
+        function updateConnectionStatus(status, message) {
+            const connectionStatus = document.getElementById("connectionStatus");
+            if (connectionStatus) {
+                connectionStatus.className = `connection-status ${status}`;
+                connectionStatus.textContent = message;
+
+                // پنهان کردن بعد از چند ثانیه اگر متصل است
+                if (status === 'connected') {
+                    setTimeout(() => {
+                        connectionStatus.style.opacity = '0.7';
+                    }, 3000);
+                }
+            }
+        }
+    </script>
+}

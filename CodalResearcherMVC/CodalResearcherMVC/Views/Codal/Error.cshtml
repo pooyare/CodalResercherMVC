@@ -1,0 +1,36 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "خطا";
+}
+
+<div class="text-center mt-5">
+    <div class="alert alert-danger">
+        <h1 class="display-4">خطا</h1>
+        <h2>@Model.Title</h2>
+
+        @if (!string.IsNullOrEmpty(Model.Message))
+        {
+            <div class="alert alert-warning mt-3">
+                <p>@Model.Message</p>
+            </div>
+        }
+
+        @if (Model.ShowDetails && !string.IsNullOrEmpty(Model.ErrorDetails))
+        {
+            <div class="mt-4 text-right">
+                <div class="card">
+                    <div class="card-header">
+                        جزئیات خطا
+                    </div>
+                    <div class="card-body">
+                        <pre class="text-danger">@Model.ErrorDetails</pre>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="mt-4">
+            <a href="@Url.Action("Index", "Codal")" class="btn btn-primary">بازگشت به صفحه اصلی</a>
+        </div>
+    </div>
+</div>

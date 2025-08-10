@@ -1,0 +1,672 @@
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta name="Excel Workbook Frameset">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="File-List" href="filelist.xml">
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+  <x:ExcelWorksheet>
+  <x:WorksheetOptions>
+  <x:Selected/>
+  <x:DisplayRightToLeft/>
+  </x:WorksheetOptions>
+  </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link id="Main-File" rel="Main-File" href="../WorkBook.htm">
+  <link rel="File-List" href="filelist.xml">
+<style>
+table { font-family:Tahoma; font-size: 8pt; }
+table td { text-align: center; border: 1px solid #ddd;}
+table th { text-align: center; background-color: #0197c8; color: white; font-weight:bold mso-number-format:\@; border: 1px solid #ddd; }
+table tr.ComputationalRow { background-color: #fee2a0 }
+.description, .DescriptionColumn { text-align: right; }
+</style>
+</head>
+<body>
+<div>
+<div>
+<hr>
+<h3>
+صورت سود و زیان تلفیقی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت سود و زیان جامع تلفیقی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت وضعیت مالی تلفیقی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت تغییرات در حقوق مالکانه تلفیقی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت جریان های نقدی تلفیقی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت سود و زیان
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت سود و زیان جامع
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت وضعیت مالی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت تغییرات در حقوق مالکانه
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+صورت جریان های نقدی
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 1
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 2
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 3
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 4
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div>
+<div>
+<hr>
+<h3>
+خلاصه اطلاعات گزارش تفسیری - صفحه 5
+</h3>
+<hr>
+</div>
+<br>
+
+    <div ng-app="app.codal" ng-cloak="" style="margin-top: 100px; margin: 30px 10px 30px 10px;" class="statement-form">
+        <div class="statement-container" ng-controller="statementController as ctrl">
+            <div class="sheet-container" data-ng-repeat="sheet in ctrl.datasource.sheets">
+                <div class="table-container" data-ng-repeat="table in sheet.tables">
+                    <div class="table-title" ng-if="table.title || ''">{{table.title}}</div>
+                    <div class="table-description" ng-if="table.description || ''">{{table.description}}</div>
+                    <table class="rayanDynamicStatement">
+                        <thead>
+                            <tr ng-repeat="row in table.header.cells track by $index">
+                                <th ng-repeat="cell in row  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-show="cell.isVisible">
+                                    <span>{{cell.value | persianNumber}}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="record in table.body.cells  track by $index">
+                                <td ng-repeat="cell in record  track by $index" rowspan="{{cell.rowspan}}" colspan="{{cell.colspan}}" ng-class="cell.cssClass" ng-show="cell.isVisible">
+                                    <span style="color: #055274;" ng-class="{'is-negative': ctrl.isNegative(cell)}">{{cell.value | persianNumber: 2}}
+                                    </span>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+</body>
+</html>
+</body>
+</html>
+
+
+
+

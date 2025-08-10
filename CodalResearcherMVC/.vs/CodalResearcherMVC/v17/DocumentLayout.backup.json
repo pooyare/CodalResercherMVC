@@ -1,0 +1,485 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\controllers\\codalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\controllers\\codalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\codal\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\codal\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\codal\\monthlyactivitytable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\codal\\monthlyactivitytable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\services\\processinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\services\\processinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\services\\codalscraperselenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\services\\codalscraperselenium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\codal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\codal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\services\\codalexceldownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\services\\codalexceldownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\codal\\selecttables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\codal\\selecttables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\entities\\exceltabledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\entities\\exceltabledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\services\\htmlexcelparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\services\\htmlexcelparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\services\\exceltableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\services\\exceltableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\exceltable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\exceltable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\monthlyactivitytableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\monthlyactivitytableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\cleanedtablerowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\cleanedtablerowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\monthlyactivityrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\monthlyactivityrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\monthlyreportentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\monthlyreportentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\matchedtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\matchedtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\downloadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\downloadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\models\\codalsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\models\\codalsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|d:\\mypcmihan\\project\\webscrappingcodalresearchermvc\\codalresearchermvc\\codalresearchermvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9BBC4F2-AD2A-4C1F-AE44-C2CDCBD704BB}|CodalResearcherMVC\\CodalResearcherMVC.csproj|solutionrelative:codalresearchermvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 334,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Codal\\Index.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\Index.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Codal\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T06:12:15.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcessingHub.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\ProcessingHub.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Services\\ProcessingHub.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\ProcessingHub.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Services\\ProcessingHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T09:14:23.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodalController.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Controllers\\CodalController.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Controllers\\CodalController.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Controllers\\CodalController.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Controllers\\CodalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T05:56:53.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExcelTableDbContext.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Entities\\ExcelTableDbContext.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Entities\\ExcelTableDbContext.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Entities\\ExcelTableDbContext.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Entities\\ExcelTableDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:05:30.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonthlyActivityTable.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\MonthlyActivityTable.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Codal\\MonthlyActivityTable.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\MonthlyActivityTable.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Codal\\MonthlyActivityTable.cshtml",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAAALEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T08:07:54.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\Results.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Codal\\Results.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\Results.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Codal\\Results.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8CAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T12:36:10.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SelectTables.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\SelectTables.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Codal\\SelectTables.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Codal\\SelectTables.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Codal\\SelectTables.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:27:13.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CodalExcelDownloader.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\CodalExcelDownloader.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Services\\CodalExcelDownloader.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\CodalExcelDownloader.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Services\\CodalExcelDownloader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T07:57:32.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CodalScraperSelenium.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\CodalScraperSelenium.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Services\\CodalScraperSelenium.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\CodalScraperSelenium.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Services\\CodalScraperSelenium.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwEYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:16:24.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExcelTableService.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\ExcelTableService.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Services\\ExcelTableService.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\ExcelTableService.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Services\\ExcelTableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:26:08.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\appsettings.Development.json",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\appsettings.Development.json",
+              "RelativeToolTip": "CodalResearcherMVC\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T05:56:10.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Program.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Program.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Program.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T05:56:06.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\appsettings.json",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\appsettings.json",
+              "RelativeToolTip": "CodalResearcherMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T07:45:37.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HtmlExcelParser.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\HtmlExcelParser.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Services\\HtmlExcelParser.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Services\\HtmlExcelParser.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Services\\HtmlExcelParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:25:36.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExcelTable.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\ExcelTable.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\ExcelTable.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\ExcelTable.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\ExcelTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:26:56.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MonthlyActivityTableViewModel.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MonthlyActivityTableViewModel.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\MonthlyActivityTableViewModel.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MonthlyActivityTableViewModel.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\MonthlyActivityTableViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:50:10.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CleanedTableRowViewModel.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\CleanedTableRowViewModel.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\CleanedTableRowViewModel.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\CleanedTableRowViewModel.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\CleanedTableRowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T05:23:45.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:17:32.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MonthlyActivityRow.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MonthlyActivityRow.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\MonthlyActivityRow.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MonthlyActivityRow.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\MonthlyActivityRow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:53:31.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MatchedTable.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MatchedTable.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\MatchedTable.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MatchedTable.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\MatchedTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:19:57.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MonthlyReportEntity.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MonthlyReportEntity.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\MonthlyReportEntity.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\MonthlyReportEntity.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\MonthlyReportEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:00:26.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T06:12:08.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T06:24:19.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T05:58:19.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DownloadRequest.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\DownloadRequest.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\DownloadRequest.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\DownloadRequest.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\DownloadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:54:07.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CodalSearchViewModel.cs",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\CodalSearchViewModel.cs",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Models\\CodalSearchViewModel.cs",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Models\\CodalSearchViewModel.cs",
+              "RelativeToolTip": "CodalResearcherMVC\\Models\\CodalSearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:44:41.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T05:56:21.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T05:56:17.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodalResearcherMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\MyPcMihan\\project\\WebScrappingCodalResearcherMVC\\CodalResearcherMVC\\CodalResearcherMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CodalResearcherMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T05:56:16.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

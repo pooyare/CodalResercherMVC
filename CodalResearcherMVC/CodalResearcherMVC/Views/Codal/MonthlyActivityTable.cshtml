@@ -1,0 +1,580 @@
+﻿@model List<CodalResearcherMVC.Models.MonthlyActivityTableViewModel>
+@{
+    ViewData["Title"] = "نمایش جداول فعالیت ماهانه";
+}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- فونت وزیر برای پشتیبانی بهتر از فارسی -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.1.0/font-face.css" rel="stylesheet">
+    <!-- بوت‌استرپ نسخه RTL -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazir', tahoma, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .page-header {
+            position: relative;
+            margin-bottom: 40px;
+            padding-bottom: 15px;
+        }
+
+            .page-header:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: 50%;
+                transform: translateX(50%);
+                width: 100px;
+                height: 4px;
+                background: linear-gradient(90deg, #4e73df, #36b9cc);
+                border-radius: 2px;
+            }
+
+        .report-section {
+            background-color: #fff;
+            border: none !important;
+            border-radius: 12px !important;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08) !important;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+            .report-section:hover {
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
+                transform: translateY(-3px);
+            }
+
+        .report-header {
+            background: linear-gradient(45deg, #4e73df, #2e59d9);
+            color: white;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            margin: -16px -16px 20px -16px;
+        }
+
+        .report-title {
+            margin: 0;
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+
+        .codal-link {
+            color: #fff;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 6px 12px;
+            border-radius: 50px;
+            margin-top: 10px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+            .codal-link:hover {
+                background-color: rgba(255, 255, 255, 0.3);
+                color: #fff;
+            }
+
+            .codal-link i {
+                margin-left: 5px;
+            }
+
+        .report-body {
+            padding: 0 20px 20px 20px;
+        }
+
+        .table-container {
+            border-radius: 8px;
+            overflow: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .table-header {
+            background: #4e73df;
+            color: white;
+        }
+
+            .table-header th {
+                font-weight: 500;
+                text-align: center;
+                padding: 12px !important;
+                border-color: rgba(255, 255, 255, 0.2) !important;
+            }
+
+        .table td {
+            padding: 12px !important;
+            vertical-align: middle;
+            border-color: #e3e6f0 !important;
+        }
+
+        .highlight-row {
+            background-color: rgba(54, 185, 204, 0.15) !important;
+            font-weight: 600;
+        }
+
+        .toggle-button {
+            background-color: #eaecf4;
+            color: #5a5c69;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+            .toggle-button:hover {
+                background-color: #d1d3e2;
+            }
+
+            .toggle-button i {
+                margin-left: 5px;
+                transition: transform 0.3s;
+            }
+
+            .toggle-button.active i {
+                transform: rotate(180deg);
+            }
+
+        .raw-html-container {
+            background-color: #f8f9fc;
+            border-radius: 8px;
+            border: 1px solid #e3e6f0;
+        }
+
+        .raw-html-pre {
+            direction: ltr;
+            text-align: left;
+            max-height: 300px;
+            overflow: auto;
+            padding: 15px;
+            margin: 0;
+            font-size: 0.85rem;
+            white-space: pre-wrap;
+            word-break: break-all;
+            font-family: 'Courier New', monospace;
+        }
+
+        .alert {
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        .alert-success {
+            background-color: #e3fcef;
+            color: #1cc88a;
+            border-color: #d0f8e9;
+        }
+
+        .alert-warning {
+            background-color: #fff8e6;
+            color: #f6c23e;
+            border-color: #ffefd2;
+        }
+
+        .empty-data {
+            padding: 20px;
+            text-align: center;
+            color: #e74a3b;
+            background-color: #fdf1f0;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        /* استایل‌های مربوط به لاگ */
+        .log-section {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        .log-header {
+            background: linear-gradient(45deg, #1cc88a, #17a673);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 12px 12px 0 0;
+        }
+
+        .log-container {
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 15px;
+            background-color: #f8f9fc;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .log-item {
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            border-left: 4px solid;
+            font-size: 0.9rem;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        .log-info {
+            background-color: #e3f2fd;
+            border-left-color: #2196f3;
+            color: #0d47a1;
+        }
+
+        .log-success {
+            background-color: #e8f5e9;
+            border-left-color: #4caf50;
+            color: #2e7d32;
+        }
+
+        .log-warning {
+            background-color: #fff3e0;
+            border-left-color: #ff9800;
+            color: #e65100;
+        }
+
+        .log-error {
+            background-color: #ffebee;
+            border-left-color: #f44336;
+            color: #c62828;
+        }
+
+        .log-timestamp {
+            font-size: 0.8rem;
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .progress-section {
+            margin-top: 10px;
+        }
+
+        .progress {
+            height: 25px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: width 0.6s ease;
+        }
+
+        .connection-status {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .status-connected {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .status-disconnected {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        @@keyframes fadeIn {
+            from
+
+        {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        }
+
+        /* استایل‌های مخصوص دستگاه‌های موبایل */
+        @@media (max-width: 768px) {
+            .report-header
+
+        {
+            padding: 15px;
+        }
+
+        .report-title {
+            font-size: 1.2rem;
+        }
+
+        .log-container {
+            max-height: 200px;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-header text-center mb-5">گزارش‌های فعالیت ماهانه</h1>
+
+        <!-- بخش لاگ -->
+        <div class="log-section">
+            <div class="log-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-list-alt me-2"></i>
+                        وضعیت پردازش
+                    </h5>
+                    <span id="connectionStatus" class="connection-status status-disconnected">عدم اتصال</span>
+                </div>
+                <div class="progress-section">
+                    <div class="progress">
+                        <div id="progressBar" class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="log-container" id="logContainer">
+                <div class="log-item log-info">در انتظار اتصال...</div>
+            </div>
+        </div>
+
+        @if (!string.IsNullOrEmpty(TempData["Message"]?.ToString()))
+        {
+            <div class="alert alert-success d-flex align-items-center mb-4" role="alert">
+                <i class="fas fa-check-circle me-2"></i>
+                <div>@TempData["Message"]</div>
+            </div>
+        }
+
+        @if (Model == null || !Model.Any())
+        {
+            <div class="alert alert-warning d-flex align-items-center" role="alert">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                <div>هیچ گزارشی یافت نشد.</div>
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var report in Model)
+                {
+                    <div class="col-12 mb-4">
+                        <div class="report-section p-4">
+                            <div class="report-header">
+                                <h4 class="report-title">
+                                    <i class="fas fa-file-alt me-2"></i>
+                                    @report.Title
+                                    @if (!string.IsNullOrEmpty(report.CompanySymbol))
+                                    {
+                                        <span class="badge bg-primary ms-2">@report.CompanySymbol</span>
+                                    }
+                                </h4>
+                                <a href="@report.Link" target="_blank" class="codal-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    مشاهده در سایت کدال
+                                </a>
+                            </div>
+
+                            <div class="report-body">
+                                @if (report.Headers != null && report.Headers.Any() && report.Rows != null && report.Rows.Any())
+                                {
+                                    <div class="table-container table-responsive">
+                                        <table class="table table-bordered table-hover mb-0">
+                                            <thead class="table-header">
+                                                <tr>
+                                                    @foreach (var header in report.Headers)
+                                                    {
+                                                        <th>@header</th>
+                                                    }
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var row in report.Rows)
+                                                {
+                                                    <tr class="@(row.Columns.Values.Any(v => v != null && v.Contains("جمع")) ? "highlight-row" : "")">
+                                                        @foreach (var header in report.Headers)
+                                                        {
+                                                            <td>@row.Columns.GetValueOrDefault(header)</td>
+                                                        }
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="empty-data">
+                                        <i class="fas fa-exclamation-circle me-2"></i>
+                                        هیچ داده‌ای برای این گزارش یافت نشد.
+                                    </div>
+                                }
+
+                                <div class="mt-4">
+                                    <button class="toggle-button">
+                                        <i class="fas fa-code"></i>
+                                        نمایش HTML خام
+                                    </button>
+                                    <div class="raw-html-container mt-3" style="display: none;">
+                                        <pre class="raw-html-pre">@report.RawHtml</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    <!-- اسکریپت‌ها -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // اسکریپت برای toggle button
+            document.querySelectorAll('.toggle-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const rawHtmlContainer = this.nextElementSibling;
+                    if (rawHtmlContainer.style.display === 'none') {
+                        rawHtmlContainer.style.display = 'block';
+                        this.innerHTML = '<i class="fas fa-code"></i> پنهان کردن HTML خام';
+                        this.classList.add('active');
+                    } else {
+                        rawHtmlContainer.style.display = 'none';
+                        this.innerHTML = '<i class="fas fa-code"></i> نمایش HTML خام';
+                        this.classList.remove('active');
+                    }
+                });
+            });
+
+            // تنظیم SignalR
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("/processingHub")
+                .build();
+
+            // المنت‌های DOM
+            const logContainer = document.getElementById('logContainer');
+            const progressBar = document.getElementById('progressBar');
+            const connectionStatus = document.getElementById('connectionStatus');
+
+            // تابع اضافه کردن لاگ
+            function addLog(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString('fa-IR');
+                const logItem = document.createElement('div');
+                logItem.className = `log-item log-${type}`;
+
+                let icon = 'fas fa-info-circle';
+                switch(type) {
+                    case 'success':
+                        icon = 'fas fa-check-circle';
+                        break;
+                    case 'warning':
+                        icon = 'fas fa-exclamation-triangle';
+                        break;
+                    case 'error':
+                        icon = 'fas fa-times-circle';
+                        break;
+                }
+
+                logItem.innerHTML = `
+                    <i class="${icon} me-2"></i>
+                    ${message}
+                    <span class="log-timestamp">${timestamp}</span>
+                `;
+
+                logContainer.appendChild(logItem);
+                logContainer.scrollTop = logContainer.scrollHeight;
+
+                // حذف لاگ‌های قدیمی (نگه داشتن آخرین 50 لاگ)
+                while (logContainer.children.length > 50) {
+                    logContainer.removeChild(logContainer.firstChild);
+                }
+            }
+
+            // تابع به‌روزرسانی پروگرس بار
+            function updateProgress(percentage) {
+                progressBar.style.width = percentage + '%';
+                progressBar.setAttribute('aria-valuenow', percentage);
+                progressBar.textContent = percentage + '%';
+
+                if (percentage >= 100) {
+                    progressBar.classList.remove('bg-info');
+                    progressBar.classList.add('bg-success');
+                } else {
+                    progressBar.classList.remove('bg-success');
+                    progressBar.classList.add('bg-info');
+                }
+            }
+
+            // مدیریت وضعیت اتصال
+            connection.onclose(function (error) {
+                connectionStatus.textContent = 'عدم اتصال';
+                connectionStatus.className = 'connection-status status-disconnected';
+                addLog('اتصال قطع شد', 'error');
+
+                // تلاش برای اتصال مجدد
+                setTimeout(function() {
+                    startConnection();
+                }, 5000);
+            });
+
+            connection.onreconnecting(function (error) {
+                connectionStatus.textContent = 'در حال اتصال مجدد...';
+                connectionStatus.className = 'connection-status status-disconnected';
+                addLog('تلاش برای اتصال مجدد...', 'warning');
+            });
+
+            connection.onreconnected(function (connectionId) {
+                connectionStatus.textContent = 'متصل';
+                connectionStatus.className = 'connection-status status-connected';
+                addLog('اتصال مجدد برقرار شد', 'success');
+            });
+
+            // دریافت پیام‌های SignalR
+            connection.on("UpdateStatus", function (message, type) {
+                addLog(message, type || 'info');
+            });
+
+            connection.on("UpdateProgress", function (percentage) {
+                updateProgress(percentage);
+                addLog(`پیشرفت: ${percentage}%`, 'info');
+            });
+
+            // تابع شروع اتصال
+            function startConnection() {
+                connection.start().then(function () {
+                    connectionStatus.textContent = 'متصل';
+                    connectionStatus.className = 'connection-status status-connected';
+                    addLog('اتصال برقرار شد', 'success');
+                    updateProgress(0);
+                }).catch(function (err) {
+                    console.error(err.toString());
+                    addLog('خطا در برقراری اتصال: ' + err.toString(), 'error');
+
+                    // تلاش برای اتصال مجدد بعد از 5 ثانیه
+                    setTimeout(function() {
+                        startConnection();
+                    }, 5000);
+                });
+            }
+
+            // شروع اتصال
+            startConnection();
+
+            // پاک کردن لاگ‌ها (اختیاری)
+            window.clearLogs = function() {
+                logContainer.innerHTML = '<div class="log-item log-info">لاگ‌ها پاک شدند</div>';
+                updateProgress(0);
+            };
+        });
+    </script>
+</body>
+</html>

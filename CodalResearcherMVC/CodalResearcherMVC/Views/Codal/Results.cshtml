@@ -1,0 +1,751 @@
+﻿@model CodalSearchViewModel
+
+<div class="container">
+    <h2 class="text-center mb-4">نتایج یافت‌شده</h2>
+
+    @{
+        // دریافت کلمات کلیدی و نمادهای جستجو شده
+        var searchedKeywords = ViewData["SearchedKeywords"] as List<string>;
+        var searchedSymbols = ViewData["SearchedSymbols"] as List<string>;
+        var searchResultsMap = ViewData["SearchResultsMap"] as Dictionary<string, List<ReportResult>>;
+    }
+
+    @if (searchedSymbols != null && searchedSymbols.Any())
+    {
+        <div class="symbol-summary card mb-4">
+            <div class="card-header">
+                <h3 class="mb-0">شرکت‌های جستجو شده</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @foreach (var symbol in searchedSymbols)
+                    {
+                        int symbolResultCount = 0;
+                        // محاسبه تعداد نتایج برای هر شرکت
+                        if (searchResultsMap != null)
+                        {
+                            foreach (var key in searchResultsMap.Keys.Where(k => k.StartsWith($"{symbol}:")))
+                            {
+                                symbolResultCount += searchResultsMap[key].Count;
+                            }
+                        }
+
+                        <div class="col-md-4 mb-2">
+                            <div class="symbol-result-item">
+                                <strong>@symbol</strong>: <span class="badge bg-primary">@symbolResultCount نتیجه</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (searchedKeywords != null && searchedKeywords.Any())
+    {
+        <div class="keyword-summary card mb-4">
+            <div class="card-header">
+                <h3 class="mb-0">کلمات کلیدی جستجو شده</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @foreach (var keyword in searchedKeywords)
+                    {
+                        int keywordResultCount = 0;
+                        // محاسبه تعداد نتایج برای هر کلمه کلیدی
+                        if (searchResultsMap != null)
+                        {
+                            foreach (var key in searchResultsMap.Keys.Where(k => k.EndsWith($":{keyword}")))
+                            {
+                                keywordResultCount += searchResultsMap[key].Count;
+                            }
+                        }
+
+                        <div class="col-md-4 mb-2">
+                            <div class="keyword-result-item">
+                                <strong>@keyword</strong>: <span class="badge bg-info">@keywordResultCount نتیجه</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Log Section برای نمایش پیام‌های SignalR -->
+    <div id="logSection" class="card mb-4" style="display:none;">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">وضعیت پردازش</h3>
+            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="clearLogs()">پاک کردن لاگ‌ها</button>
+        </div>
+        <div class="card-body">
+            <div id="progress-container" style="display:none;">
+                <div class="progress mb-3">
+                    <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%">0%</div>
+                </div>
+            </div>
+            <div id="log-messages" class="log-container">
+                <!-- پیام‌های لاگ اینجا نمایش داده می‌شوند -->
+            </div>
+        </div>
+    </div>
+
+    <form method="post" asp-action="DownloadExcelFiles">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>عنوان</th>
+                        <th>شرکت</th>
+                        <th>لینک</th>
+                        <th>اکسل</th>
+                        @if (searchResultsMap != null)
+                        {
+                            <th>کلمات کلیدی</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Results != null && Model.Results.Any())
+                    {
+                        @for (int i = 0; i < Model.Results.Count; i++)
+                        {
+                            <tr>
+                                <td>@Model.Results[i].Title</td>
+                                <td>
+                                    <span class="badge bg-primary">@Model.Results[i].CompanySymbol</span>
+                                </td>
+                                <td>
+                                    <a href="@Model.Results[i].Link" target="_blank" class="btn btn-sm btn-outline-primary">
+                                        مشاهده
+                                    </a>
+                                </td>
+                                <td>
+                                    @if (Model.Results[i].ExcelLink != "ندارد")
+                                    {
+                                        <a href="@Model.Results[i].ExcelLink" target="_blank" class="btn btn-sm btn-outline-success">
+                                            دانلود
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">ندارد</span>
+                                    }
+                                </td>
+                                @if (searchResultsMap != null)
+                                {
+                                    <td>
+                                        @foreach (var kvp in searchResultsMap)
+                                        {
+                                            @if (kvp.Value.Any(r => r.Link == Model.Results[i].Link))
+                                            {
+                                                // نمایش فقط کلمه کلیدی (بدون سمبل شرکت)
+                                                string keyword = kvp.Key.Split(':')[1];
+                                                <span class="keyword-tag">@keyword</span>
+                                            }
+                                        }
+                                    </td>
+                                }
+                            </tr>
+                            <!-- فیلدهای مخفی برای ارسال به کنترلر -->
+                            <input type="hidden" name="excelLinks" value="@Model.Results[i].ExcelLink" />
+                            <input type="hidden" name="link" value="@Model.Results[i].Link" />
+                            <input type="hidden" name="titles" value="@Model.Results[i].Title" />
+                            <input type="hidden" name="companySymbols" value="@Model.Results[i].CompanySymbol" />
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">هیچ نتیجه‌ای یافت نشد</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- فیلد ورودی برای دریافت چند کلمه -->
+        <div id="additionalField" class="row mb-3 card p-3" style="display:none;">
+            <div class="col-12">
+                <label for="additionalInput" class="form-label">کلمات جستجو در اکسل (با ویرگول جدا کنید):</label>
+                <input type="text" id="additionalInput" name="searchKeywords" class="form-control"
+                       placeholder="مثلاً: سود، زیان، سرمایه" />
+            </div>
+        </div>
+
+        <div class="action-buttons mt-3 mb-3 d-flex gap-2">
+            <button type="button" class="btn btn-warning" id="extractReportBtn" onclick="extractMonthlyReport()">
+                🧠 استخراج گزارش فعالیت ماهانه
+            </button>
+            <button type="button" class="btn btn-success" id="downloadExcelBtn" onclick="showAdditionalField()">
+                📥 دانلود فایل‌های اکسل
+            </button>
+            <button type="button" class="btn btn-primary" id="submitBtn" style="display:none;" onclick="downloadExcelFiles()">
+                تأیید و ارسال
+            </button>
+        </div>
+    </form>
+
+    <div class="mt-3">
+        <a asp-action="Index" class="btn btn-outline-secondary">بازگشت به صفحه جستجو</a>
+    </div>
+</div>
+
+<!-- صفحه لودینگ -->
+<div id="loadingOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.95); z-index:1000; text-align:center; direction: rtl;">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width: 85%; max-width: 700px;">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+        <p id="statusMessage" style="font-family: 'Vazirmatn'; margin-top: 20px; font-size: 18px; color: #334155; font-weight: 500;">در حال پردازش...</p>
+        <div class="progress">
+            <div id="progressBar" class="progress-bar" style="width: 0%"></div>
+        </div>
+        <div id="statusHistory" style="margin-top: 25px; text-align: right;">
+            <div class="status-item status-info">
+                <strong>آماده برای دریافت وضعیت...</strong>
+            </div>
+        </div>
+        <button id="cancelBtn" class="search-button" style="width: auto; padding: 10px 20px; margin-top: 15px; background-color: #ef4444;">
+            لغو عملیات
+        </button>
+    </div>
+</div>
+
+<style>
+    .keyword-tag {
+        display: inline-block;
+        background-color: #f0f0f0;
+        padding: 3px 8px;
+        margin: 2px;
+        border-radius: 3px;
+        font-size: 0.9em;
+        border: 1px solid #ddd;
+    }
+
+    .keyword-summary, .symbol-summary {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+    }
+
+    .keyword-result-item, .symbol-result-item {
+        padding: 5px;
+    }
+
+    /* RTL Support */
+    body {
+        direction: rtl;
+        text-align: right;
+    }
+
+    .table th, .table td {
+        text-align: right;
+    }
+
+    .spinner-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spinner {
+        border: 6px solid #f3f3f3;
+        border-top: 6px solid #1e3a8a;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+    }
+
+    @@keyframes spin {
+        0%
+
+    {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+    }
+
+    .progress {
+        background-color: #f3f4f6;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 25px;
+        margin-top: 15px;
+    }
+
+    .progress-bar {
+        background-color: #3b82f6;
+        height: 100%;
+        border-radius: 8px;
+        transition: width 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .search-button {
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .search-button:hover {
+            background-color: #2563eb;
+        }
+
+    #statusHistory {
+        max-height: 200px;
+        overflow-y: auto;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 15px;
+        border: 1px solid #e5e7eb;
+    }
+
+    .status-item {
+        padding: 8px 12px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        border-right: 4px solid;
+        font-size: 14px;
+    }
+
+        .status-item:last-child {
+            margin-bottom: 0;
+        }
+
+    .status-info {
+        background-color: #dbeafe;
+        border-right-color: #3b82f6;
+        color: #1e40af;
+    }
+
+    .status-success {
+        background-color: #dcfce7;
+        border-right-color: #22c55e;
+        color: #15803d;
+    }
+
+    .status-warning {
+        background-color: #fef3c7;
+        border-right-color: #f59e0b;
+        color: #92400e;
+    }
+
+    .status-error {
+        background-color: #fee2e2;
+        border-right-color: #ef4444;
+        color: #dc2626;
+    }
+
+    /* Log Styles */
+    .log-container {
+        max-height: 300px;
+        overflow-y: auto;
+        background-color: #f8f9fa;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #dee2e6;
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+    }
+
+    .log-message {
+        margin-bottom: 8px;
+        padding: 5px 8px;
+        border-radius: 3px;
+        border-left: 4px solid;
+    }
+
+        .log-message.info {
+            background-color: #d1ecf1;
+            border-left-color: #17a2b8;
+            color: #0c5460;
+        }
+
+        .log-message.success {
+            background-color: #d4edda;
+            border-left-color: #28a745;
+            color: #155724;
+        }
+
+        .log-message.warning {
+            background-color: #fff3cd;
+            border-left-color: #ffc107;
+            color: #856404;
+        }
+
+        .log-message.error {
+            background-color: #f8d7da;
+            border-left-color: #dc3545;
+            color: #721c24;
+        }
+
+    .log-timestamp {
+        color: #6c757d;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+</style>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <!-- SignalR Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        // SignalR Connection
+        let connection = null;
+        let isProcessing = false;
+
+        // Initialize SignalR connection
+        function initializeSignalR() {
+            connection = new signalR.HubConnectionBuilder()
+                .withUrl("/processingHub")
+                .build();
+
+            // Handle UpdateStatus messages
+            connection.on("UpdateStatus", function (message, type = "info") {
+                addLogMessage(message, type);
+                addStatusToHistory(message, type);
+                updateStatusMessage(message);
+                showLogSection();
+            });
+
+            // Handle UpdateProgress messages
+            connection.on("UpdateProgress", function (percentage) {
+                updateProgress(percentage);
+                showLogSection();
+            });
+
+            // Handle ProcessingComplete messages
+            connection.on("ProcessingComplete", function (success, message) {
+                isProcessing = false;
+                hideLoadingOverlay();
+                if (success) {
+                    addLogMessage("پردازش با موفقیت تکمیل شد", "success");
+                    addStatusToHistory("پردازش با موفقیت تکمیل شد", "success");
+                } else {
+                    addLogMessage("خطا در پردازش: " + message, "error");
+                    addStatusToHistory("خطا در پردازش: " + message, "error");
+                }
+            });
+
+            // Start the connection
+            connection.start()
+                .then(function () {
+                    console.log("SignalR connected successfully");
+                })
+                .catch(function (err) {
+                    console.error("SignalR connection error: " + err);
+                });
+
+            // Handle connection closed
+            connection.onclose(function () {
+                console.log("SignalR connection closed");
+                // Auto-reconnect after 5 seconds
+                setTimeout(function() {
+                    initializeSignalR();
+                }, 5000);
+            });
+        }
+
+        // Add log message to the log container
+        function addLogMessage(message, type = "info") {
+            const logContainer = document.getElementById("log-messages");
+            const timestamp = new Date().toLocaleTimeString('fa-IR');
+
+            const logMessage = document.createElement("div");
+            logMessage.className = `log-message ${type}`;
+            logMessage.innerHTML = `
+                <span class="log-timestamp">[${timestamp}]</span>
+                ${message}
+            `;
+
+            logContainer.appendChild(logMessage);
+
+            // Auto-scroll to bottom
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+
+        // Add status to history in loading overlay
+        function addStatusToHistory(message, type = "info") {
+            const statusHistory = document.getElementById("statusHistory");
+            const timestamp = new Date().toLocaleTimeString('fa-IR');
+
+            const statusItem = document.createElement("div");
+            statusItem.className = `status-item status-${type}`;
+            statusItem.innerHTML = `<strong>[${timestamp}]</strong> ${message}`;
+
+            statusHistory.appendChild(statusItem);
+
+            // Auto-scroll to bottom
+            statusHistory.scrollTop = statusHistory.scrollHeight;
+        }
+
+        // Update status message in loading overlay
+        function updateStatusMessage(message) {
+            const statusMessage = document.getElementById("statusMessage");
+            if (statusMessage) {
+                statusMessage.textContent = message;
+            }
+        }
+
+        // Update progress bar
+        function updateProgress(percentage) {
+            const progressContainer = document.getElementById("progress-container");
+            const progressBar = document.getElementById("progress-bar");
+            const overlayProgressBar = document.getElementById("progressBar");
+
+            // Update log section progress bar
+            progressContainer.style.display = "block";
+            progressBar.style.width = percentage + "%";
+            progressBar.textContent = percentage + "%";
+
+            // Update overlay progress bar
+            if (overlayProgressBar) {
+                overlayProgressBar.style.width = percentage + "%";
+                overlayProgressBar.textContent = percentage + "%";
+            }
+
+            // Hide progress bar when completed
+            if (percentage >= 100) {
+                setTimeout(function() {
+                    progressContainer.style.display = "none";
+                }, 2000);
+            }
+        }
+
+        // Show log section
+        function showLogSection() {
+            document.getElementById("logSection").style.display = "block";
+        }
+
+        // Clear all logs
+        function clearLogs() {
+            document.getElementById("log-messages").innerHTML = "";
+            document.getElementById("progress-container").style.display = "none";
+        }
+
+        // Show loading overlay
+        function showLoadingOverlay() {
+            isProcessing = true;
+            document.getElementById("loadingOverlay").style.display = "block";
+            // Reset progress and status
+            document.getElementById("progressBar").style.width = "0%";
+            document.getElementById("progressBar").textContent = "0%";
+            document.getElementById("statusMessage").textContent = "در حال پردازش...";
+            // Clear status history except the first item
+            const statusHistory = document.getElementById("statusHistory");
+            statusHistory.innerHTML = '<div class="status-item status-info"><strong>شروع پردازش...</strong></div>';
+        }
+
+        // Hide loading overlay
+        function hideLoadingOverlay() {
+            isProcessing = false;
+            document.getElementById("loadingOverlay").style.display = "none";
+        }
+
+        // Extract monthly report function
+        function extractMonthlyReport() {
+            if (isProcessing) {
+                alert("در حال حاضر پردازش در جریان است. لطفاً صبر کنید.");
+                return;
+            }
+
+            // Show loading overlay
+            showLoadingOverlay();
+            showLogSection();
+
+            // Collect form data
+            const formData = new FormData();
+
+            // Add hidden inputs to form data
+            const excelLinks = document.querySelectorAll('input[name="excelLinks"]');
+            const links = document.querySelectorAll('input[name="link"]');
+            const titles = document.querySelectorAll('input[name="titles"]');
+            const companySymbols = document.querySelectorAll('input[name="companySymbols"]');
+
+            excelLinks.forEach(input => formData.append('excelLinks', input.value));
+            links.forEach(input => formData.append('link', input.value));
+            titles.forEach(input => formData.append('titles', input.value));
+            companySymbols.forEach(input => formData.append('companySymbols', input.value));
+
+            // Send AJAX request
+            fetch('/Codal/ExtractInfoPage', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    addLogMessage("درخواست با موفقیت ارسال شد", "success");
+                    addStatusToHistory("درخواست با موفقیت ارسال شد", "success");
+                    // SignalR will handle the rest of the updates
+                } else {
+                    throw new Error(data.message || "خطا در ارسال درخواست");
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                addLogMessage("خطا در ارسال درخواست: " + error.message, "error");
+                addStatusToHistory("خطا در ارسال درخواست: " + error.message, "error");
+                hideLoadingOverlay();
+            });
+        }
+
+        // Cancel operation
+        function cancelOperation() {
+            if (isProcessing) {
+                // Send cancel request to server
+                fetch('/Codal/CancelOperation', {
+                    method: 'POST'
+                })
+                .then(response => {
+                    if (response.ok) {
+                        addLogMessage("عملیات لغو شد", "warning");
+                        addStatusToHistory("عملیات لغو شد", "warning");
+                    }
+                })
+                .catch(error => {
+                    console.error('Cancel error:', error);
+                });
+            }
+            hideLoadingOverlay();
+        }
+
+        // Download Excel files function
+        function downloadExcelFiles() {
+            if (isProcessing) {
+                alert("در حال حاضر پردازش در جریان است. لطفاً صبر کنید.");
+                return;
+            }
+
+            // Show loading overlay
+            showLoadingOverlay();
+            showLogSection();
+
+            // Collect form data
+            const formData = new FormData();
+
+            // Add hidden inputs to form data
+            const excelLinks = document.querySelectorAll('input[name="excelLinks"]');
+            const links = document.querySelectorAll('input[name="link"]');
+            const titles = document.querySelectorAll('input[name="titles"]');
+            const companySymbols = document.querySelectorAll('input[name="companySymbols"]');
+
+            // Add search keywords
+            const searchKeywords = document.getElementById('additionalInput').value;
+            if (searchKeywords) {
+                formData.append('searchKeywords', searchKeywords);
+            }
+
+            excelLinks.forEach(input => formData.append('excelLinks', input.value));
+            links.forEach(input => formData.append('link', input.value));
+            titles.forEach(input => formData.append('titles', input.value));
+            companySymbols.forEach(input => formData.append('companySymbols', input.value));
+
+            // Send AJAX request
+            fetch('/Codal/DownloadExcelFiles', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                // Check if response is JSON or file download
+                const contentType = response.headers.get('content-type');
+                if (contentType && contentType.includes('application/json')) {
+                    return response.json();
+                } else {
+                    // Handle file download
+                    return response.blob().then(blob => {
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        const contentDisposition = response.headers.get('content-disposition');
+                        let filename = 'download.zip';
+
+                        if (contentDisposition) {
+                            const filenameMatch = contentDisposition.match(/filename="?(.+)"?/);
+                            if (filenameMatch) {
+                                filename = filenameMatch[1];
+                            }
+                        }
+
+                        a.href = url;
+                        a.download = filename;
+                        document.body.appendChild(a);
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        document.body.removeChild(a);
+
+                        return { success: true, isFile: true };
+                    });
+                }
+            })
+            .then(data => {
+                if (data.success) {
+                    if (data.isFile) {
+                        addLogMessage("فایل‌ها با موفقیت دانلود شدند", "success");
+                        addStatusToHistory("فایل‌ها با موفقیت دانلود شدند", "success");
+                        hideLoadingOverlay();
+                    } else {
+                        addLogMessage("درخواست با موفقیت ارسال شد", "success");
+                        addStatusToHistory("درخواست با موفقیت ارسال شد", "success");
+                        // SignalR will handle the rest of the updates
+                    }
+                } else {
+                    throw new Error(data.message || "خطا در ارسال درخواست");
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                addLogMessage("خطا در ارسال درخواست: " + error.message, "error");
+                addStatusToHistory("خطا در ارسال درخواست: " + error.message, "error");
+                hideLoadingOverlay();
+            });
+        }
+
+        // Existing functions
+        function showAdditionalField() {
+            // نمایش فیلد اضافی
+            document.getElementById('additionalField').style.display = 'block';
+            // نمایش دکمه ارسال
+            document.getElementById('submitBtn').style.display = 'inline-block';
+            // پنهان کردن دکمه دانلود
+            document.getElementById('downloadExcelBtn').style.display = 'none';
+        }
+
+        // Form submit handler - removed since we're using AJAX for all operations
+
+        // Initialize SignalR when page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            initializeSignalR();
+
+            // Attach cancel button event
+            document.getElementById("cancelBtn").addEventListener("click", cancelOperation);
+        });
+    </script>
+}
